@@ -1,0 +1,55 @@
+# Compiled binaries
+go_mcp_server_searxng
+search-mcp
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build artifacts
+dist/
+build/
+bin/
+release/
+
+# Go specific
+*.o
+*.a
+*.log
+vendor/
+Godeps/
+go.work
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test artifacts
+*.tmp
+tmp/
+temp/
+coverage.out
+coverage.html
+*.cover
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Debug
+debug/
+__debug_bin
+
+# OS
+Thumbs.db
+.sisyphus/
