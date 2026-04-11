@@ -57,12 +57,12 @@ MCP server for web and code search using **SearXNG** (privacy-respecting metasea
 
 ```bash
 # Clone and build from source
-git clone https://github.com/yourusername/search-mcp
+git clone https://github.com/karti-ai/search-mcp
 cd search-mcp
 make build
 
 # Or download release (coming soon)
-# curl -L https://github.com/yourusername/search-mcp/releases/download/v2.0.0/search-mcp-$(uname -s)-$(uname -m) -o search-mcp
+# curl -L https://github.com/karti-ai/search-mcp/releases/download/v2.0.0/search-mcp-$(uname -s)-$(uname -m) -o search-mcp
 # chmod +x search-mcp
 
 # Run with stdio (for MCP clients like Claude Desktop, Cursor)
@@ -200,7 +200,7 @@ First search is slow (container startup). If consistently slow:
 
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/search-mcp
+git clone https://github.com/karti-ai/search-mcp
 cd search-mcp
 
 # Build
@@ -243,7 +243,7 @@ make build-all
 
 ## License
 
-MIT
+Apache 2.0
 
 ---
 
